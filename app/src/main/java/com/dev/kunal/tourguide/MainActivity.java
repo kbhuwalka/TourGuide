@@ -102,23 +102,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public int getCount() {
-            // Show 3 total pages.
             return 4;
-        }
-
-        @Override
-        public CharSequence getPageTitle(int position) {
-            switch (position) {
-                case 0:
-                    return "Top Sights";
-                case 1:
-                    return "Events";
-                case 2:
-                    return "Restaurants";
-                case 3:
-                    return "Similar Places";
-            }
-            return null;
         }
     }
 }
